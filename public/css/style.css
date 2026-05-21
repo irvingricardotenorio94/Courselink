@@ -1,0 +1,50 @@
+/*Style header-Logo-Navbar*/
+.logoIrvingImg {
+    width: 150px;
+    height: 120px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#mainmenu ul li a{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainmenu ul li a i {
+    transition: transform 0.4s ease;
+}
+
+#mainmenu ul li a:hover i {
+    transform: rotate(360deg);
+}
