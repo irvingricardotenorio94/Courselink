@@ -12,14 +12,14 @@
     <header>
         <nav class="navbar">
             <div class="logoIrving">
-                <a href="#"> 
+                <a href="#">
                     <img class="logoIrvingImg" src="/public/image/irving-oil@logotyp.us.png" alt="IrvingLogo">
                 </a>
             </div>
             <div id="mainmenu">
                 <ul>
                     <li><a href="#"><i class="fa-solid fa-house"></i> Inicio</a></li>
-                    <li><a href="#"><i class="fa-solid fa-user"></i> Sobre mi</a></li>
+                    <li><a href="#" id="btn-sobremi"><i class="fa-solid fa-user"></i> Sobre mi</a></li>
                     <li><a href="#"><i class="fa-solid fa-gear"></i> Servicios</a></li>
                     <li><a href="#"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
                     <li><a href="#"><i class="fa-solid fa-code-branch"></i> Repositorio publico</a></li>
@@ -31,5 +31,15 @@
     <main>
         </main>
 
+<div id="modal-sobremi" class="modal">
+    <div class="modal-content">
+        <span id="btn-cerrar" class="close-btn">&times;</span>
+        <h2>Sobre Mí</h2>
+        <p id="info-perfil">Cargando información desde la base de datos...</p>
+    </div>
+</div>
+
+    <script src="/public/js/frontend.js"></script>
+</body>
 </body>
 </html>
